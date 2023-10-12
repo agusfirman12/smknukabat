@@ -10,7 +10,7 @@
         <p class="text-white">Jalan Bypas, Kedayunan, Kec.Kabat, Kab.Banyuwangi</p>
 
         <p class="mt-5 mb-0 text-white">Phone : 0333 - 4460622</p>
-        <p class="my-0 text-white">Email : smknukabat@yahoo.com</p>
+        <p class="my-0 text-white">Email : smknukabat@smknukabat.sch.id</p>
         <div class="medsos d-flex mt-2">
             <div class="icon-medsos bg-secondary-subtle rounded-circle px-3 py-2">
                 <a href="https://www.instagram.com/smknukabat1_" target="_blank">
