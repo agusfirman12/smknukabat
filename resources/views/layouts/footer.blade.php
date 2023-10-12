@@ -33,7 +33,7 @@
       <div class="col-2 mb-3 text-white">
         <h5>Profile</h5>
         <ul class="nav flex-column text-white">
-          <li id="nav-link" class="nav-item mb-2"><a id="nav-link" href="#sambutan-kepalasekolah" class="nav-link p-0 text-light">Sambutan Kepala Sekolah</a></li>
+          <li id="nav-link" class="nav-item mb-2"><a id="nav-link" href="/#sambutan-kepalasekolah" class="nav-link p-0 text-light">Sambutan Kepala Sekolah</a></li>
           <li class="nav-item mb-2"><a id="nav-link" href="{{ route('sejarah') }}" class="nav-link p-0 text-light">Sejarah Singkat</a></li>
           <li class="nav-item mb-2"><a id="nav-link" href="{{ route("visi-misi") }}" class="nav-link p-0 text-light">Visi & Misi</a></li>
           <li class="nav-item mb-2"><a id="nav-link" href="{{ route('organisasi') }}" class="nav-link p-0 text-light">Organisasi</a></li>
@@ -44,7 +44,7 @@
       <div class="col-2 mb-3 ms-5 text-white">
         <h5>Selengkapnya</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a id="nav-link" href="#" class="nav-link p-0 text-light">Jurusan</a></li>
+          <li class="nav-item mb-2"><a id="nav-link" href="{{ route('jurusan-tkj') }}" class="nav-link p-0 text-light">Jurusan</a></li>
           <li class="nav-item mb-2"><a id="nav-link" href="{{ route('extrakurikuler') }}" class="nav-link p-0 text-light">Extrakurikuler</a></li>
           <li class="nav-item mb-2"><a id="nav-link" href="/#berita" class="nav-link p-0 text-light">Berita</a></li>
         </ul>

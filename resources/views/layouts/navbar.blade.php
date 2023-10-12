@@ -36,12 +36,22 @@
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="{{ route('jurusan-tkj') }}">Teknik Komputer Dan Jaringan</a></li>
-                      <li><a class="dropdown-item" href="#">Teknik Kendaraan Ringan</a></li>
+                      <li><a class="dropdown-item" href="{{ route('jurusan-tkr') }}">Teknik Kendaraan Ringan</a></li>
                     </ul>
                 </li>
               <li class="nav-item px-5 fw-semibold">
                 <a id="nav-link-active" class="nav-link" href="/#berita" >Berita</a>
               </li>
+              <li class="nav-item dropdown px-5 fw-semibold">
+                <a id="nav-link"  class="nav-link dropdown-toggle fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PPDB
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="{{ route('pendaftaran') }}">Pendaftaran</a></li>
+                  <li><a class="dropdown-item" href="{{ route('panduan-pendaftaran') }}">Panduan Pendafataran</a></li>
+                </ul>
+            </li>
+
 
               @auth
               <li class="nav-item dropdown px-5 fw-semibold">

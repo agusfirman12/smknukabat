@@ -10,10 +10,11 @@
         <div class="container px-5 py-5">
             <div class="row d-flex justify-content-evenly">
                 <div class="col-md-3">
-                  @include('profile.sidebar')
+                  @include('pendaftaran.sidebar')
                 </div>
                 <div class="col-md-8">
-                    <img src="{{ asset('assets/img/organisasi.jpg') }}" width="100%">
+                    <h2 class="text-center">Pendaftaran Siswa Baru</h2>
+                    
                 </div>
             </div>
         </div>

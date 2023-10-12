@@ -40,8 +40,11 @@ class LandingController extends Controller
         return view('profile.extrakurikuler');
     }
 
-    public function jurusan(){
-        return view('jurusan.jurusan');
+    public function jurusanTkj(){
+        return view('jurusan.tkj');
+    }
+    public function jurusanTkr(){
+        return view('jurusan.tkr');
     }
 
     public function berita($id){
@@ -57,5 +60,13 @@ class LandingController extends Controller
     public function pengumuman($id){
         $announcement = Announcement::find($id);
         return view('pengumuman.index',['announcement' => $announcement]);
+    }
+
+    public function pendaftaran(){
+        return view('pendaftaran.pendaftaran');
+    }
+
+    public function panduan(){
+        return view('pendaftaran.panduan');
     }
 }

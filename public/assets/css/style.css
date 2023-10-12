@@ -105,6 +105,11 @@ object-fit: cover;
 filter: brightness(0.6);
 }
 
+.p-img-major{
+height: 100%;
+object-fit: cover;
+}
+
 /* sejarah css */
 
 #nav-link-page[aria-current="page"]{

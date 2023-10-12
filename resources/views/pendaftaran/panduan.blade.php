@@ -10,10 +10,10 @@
         <div class="container px-5 py-5">
             <div class="row d-flex justify-content-evenly">
                 <div class="col-md-3">
-                  @include('jurusan.sidebar')
+                  @include('pendaftaran.sidebar')
                 </div>
                 <div class="col-md-8">
-                    <h2>Jurusan Teknik Komputer Dan Jaringan SMK NU Kabat</h2>
+                    <h2 class="text-center">Panduan Pendafataran</h2>
                 </div>
             </div>
         </div>

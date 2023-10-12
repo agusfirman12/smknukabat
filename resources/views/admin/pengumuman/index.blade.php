@@ -15,7 +15,7 @@
 
     <div class="table-responsive col-lg-10 rounded shadow py-3 px-3">
         <a href="/admin/announcement/create" class="btn btn-success mb-3"><i class="bi bi-plus-circle pe-2"></i>Tambah Pengumuman Baru</a>
-        <table class="table table-bordered table-sm align-middle text-center">
+        <table class="table table-sm align-middle text-center">
           <thead>
             <tr>
               <th scope="col">No</th>

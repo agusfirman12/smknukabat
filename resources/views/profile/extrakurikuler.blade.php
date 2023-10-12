@@ -14,6 +14,56 @@
                 </div>
                 <div class="col-md-8">
                     <h2>Extrakurikuler SMK NU Kabat</h2>
+                    <div class="row mt-5">
+                        <div class="col-md-4 mb-4">
+                            <div class="card text-light shadow">
+                                <img src="{{ asset('assets/img/extra/EC1.jpeg') }}" class="card-img">
+                                <div class="card-img-overlay mt-5">
+                                  <h5 class="card-title bg-secondary bg-opacity-75 mt-4 rounded text-center">English Club</h5>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card text-light shadow">
+                                <img src="{{ asset('assets/img/extra/HADRAAH.jpeg') }}" class="card-img">
+                                <div class="card-img-overlay mt-5">
+                                  <h5 class="card-title bg-secondary bg-opacity-75 mt-4 rounded text-center">Hadrah</h5>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card text-light shadow">
+                                <img src="{{ asset('assets/img/extra/TARI.jpeg') }}" class="card-img">
+                                <div class="card-img-overlay mt-5">
+                                  <h5 class="card-title bg-secondary bg-opacity-75 mt-4 rounded text-center">Tari</h5>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card text-light shadow">
+                                <img src="{{ asset('assets/img/extra/PRAMUKA.jpeg') }}" class="card-img">
+                                <div class="card-img-overlay mt-5">
+                                  <h5 class="card-title bg-secondary bg-opacity-75 mt-4 rounded text-center">Pramuka</h5>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card text-light shadow">
+                                <img src="{{ asset('assets/img/extra/ANGKLUNG.jpeg') }}" class="card-img">
+                                <div class="card-img-overlay mt-5">
+                                  <h5 class="card-title bg-secondary bg-opacity-75 mt-4 rounded text-center">Angklung</h5>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card text-light shadow">
+                                <img src="{{ asset('assets/img/extra/SILAT.jpeg') }}" class="card-img">
+                                <div class="card-img-overlay mt-5">
+                                  <h5 class="card-title bg-secondary bg-opacity-75 mt-4 rounded text-center">Pencak Silat</h5>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

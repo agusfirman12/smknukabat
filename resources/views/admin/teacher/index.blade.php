@@ -15,7 +15,7 @@
 
     <div class="table-responsive rounded shadow py-3 px-3">
         <a href="/admin/teacher/create" class="btn btn-success mb-3"><i class="bi bi-plus-circle pe-2"></i>Tambah Pengajar Baru</a>
-        <table class="table table-bordered table-sm align-middle text-center">
+        <table class="table table-sm align-middle text-center">
           <thead>
             <tr>
               <th scope="col">No</th>

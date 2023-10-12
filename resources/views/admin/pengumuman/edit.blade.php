@@ -41,7 +41,7 @@
                 <input id="annoucment_fill" type="hidden" name="annoucment_fill" value="{{ old ('annoucment_fill', $announcement->annoucment_fill)}}">
                 <trix-editor input="annoucment_fill"></trix-editor>
             </div>
-            <button type="submit" class="btn btn-primary">Update Berita</button>
+            <button type="submit" class="btn btn-primary">Update Pengumuman</button>
           </form>
     </div>
 </div>

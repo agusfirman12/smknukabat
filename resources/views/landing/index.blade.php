@@ -33,19 +33,24 @@
 
     {{-- welcome word section --}}
     <div id="sambutan-kepalasekolah" class="container">
-      <div class="row mt-5 d-flex justify-content-evenly">
-        <div class="col-md-5 d-flex align-items-center">
+      <div class="row mt-5 d-flex justify-content-between">
+        <div class="col-md-4 d-flex align-items-center">
           <div class="principal-img">
-            <img id="principal-img" class="rounded" src="{{ asset("assets/img/smknu-kabat.png") }}" alt="" width="100%">
+            <img id="principal-img" class="rounded shadow" src="{{ asset("assets/img/profile.png") }}" alt="" width="100%">
           </div>
         </div>
-        <div class="col-md-5 word-col text-white">
+        <div class="col-md-8 word-col text-white">
           <h1 class="fw-semibold">Sambutan Kepala Sekolah</h1>
-          <p class="fs-5" style="text-align: justify">Selamat datang di website resmi SMK NU Kabat!
-            Kami dengan bangga mempersembahkan platform ini sebagai jendela interaktif menuju dunia pendidikan yang kami anut. Di SMK NU Kabat, kami berkomitmen untuk menyediakan lingkungan belajar yang inspiratif, inklusif, dan inovatif bagi setiap siswa.
-            Melalui website ini, kami berbagi informasi terkini seputar kegiatan, prestasi, dan program-program unggulan sekolah kami. Kami juga ingin mengundang Anda semua, baik siswa, orang tua, maupun masyarakat, untuk turut serta dalam perjalanan pendidikan yang penuh makna ini.Terima kasih atas kepercayaan yang Anda berikan kepada kami. Mari bersama kita membentuk generasi yang cerdas, kreatif, dan berakhlak mulia.</p>
-          <p class="text-end fs-5">salam hangat,</p>
-          <p class="text-end fs-5">Hendra Prayudi S.Pd., M.Pd Kepala Sekolah SMK NU Kabat</p>
+          <p>Assalammualaikum Wr. Wb.</p>
+          <p>Selamat datang di website resmi SMK NU KABAT</p>
+          <p class="" style="text-align: justify">SMK NU KABAT adalah salah satu sekolah kejuruan yang terletak di pusat kota Kabat. Pada saat ini, kurikulum yang digunakan yaitu KTSP Revisi 2017.Dalam rangka melayani berbagai minat dan cita-cita peserta didik, SMK NU KABAT mengembangkan program inovasi sekolah berupa  Character Building yang disebut DISISKA (Disiplin, Siswa Santun Beretika). Layanan Character Building ini bekerjasama dengan warga sekolah, wali murid dan juga beberapa instansi pemerintah setempat. 
+          <br>
+          Dengan motto SMK BISA DAN BERUBAH yang bermakna semua siswa bisa mengembangkan bakat minat serta berubah menjadi lebih baik dengan karakter yang disiplin, santun dan ber etika, SMK NU KABAT mampu menuntun murid-muridnya memiliki daya juang dan etos kerja yang tinggi karakter yang baik. Terwujudlah berbagai prestasi, baik itu jenjang Kabupaten, Provinsi, Nasional bahkan Internasional
+            
+            Untuk dapat menghadapi perubahan zaman yang dinamis, maka perlu adanya informasi yang benar-benar bisa dipertanggung jawabkan. Oleh karena itulah, website ini hadir untuk melayani kebutuhan informasi bagi siswa-siswi, orang tua dan wali murid, guru dan tenaga kependidikan, stake holder serta masyarakat umum. 
+            </p>
+          <p class="text-end">Terima kasih</p>
+          <p class="text-end">Wasalammuallaikum Wr. Wb.</p>
         </div>
       </div>
     </div>
@@ -161,22 +166,22 @@
             <span class="line"></span>
           </div>
         </div>
-        <div class="row pt-3 pb-5 text-center">
-          <div class="col-md-3">
-            <img src="{{ asset("assets/img/logo-poliwangi.png") }}" alt="" style="width: 75%">
-            <p>Politeknik Negeri Banyuwangi</p>
+        <div class="row pt-5 pb-5 text-center">
+          <div class="col-md-3 ">
+            <img src="{{ asset("assets/img/kkp.jpg") }}" class="shadow rounded" style="width: 75%">
+            <p class="fw-semibold mt-3">PT.Karya Kasih Persada</p>
           </div>
           <div class="col-md-3">
-            <img src="{{ asset("assets/img/logo.png") }}" alt="" style="width: 75%">
-            <p>smk nu kabat</p>
+            <img src="{{ asset("assets/img/kaa.jpeg") }}" class="shadow rounded" style="width: 75%">
+            <p class="fw-semibold mt-3">PT.Kharisma Adyatama Arkantara </p>
           </div>
           <div class="col-md-3">
-            <img src="{{ asset("assets/img/logo-poliwangi.png") }}" alt="" style="width: 75%">
-            <p>Politeknik Negeri Banyuwangi</p>
+            <img src="{{ asset("assets/img/chemko.jpg") }}" class="shadow rounded" style="width: 75%">
+            <p class="fw-semibold mt-3">PT. Chemco Harapan Nusantara</p>
           </div>
           <div class="col-md-3">
-            <img src="{{ asset("assets/img/logo.png") }}" alt="" style="width: 75%">
-            <p>smk nu kabat</p>
+            <img src="{{ asset("assets/img/prap.jpg") }}" class="shadow rounded" style="width: 75%">
+            <p class="fw-semibold mt-3">PT.Putra Prima Abadi Perkasa</p>
           </div>
           </div>
         </div>

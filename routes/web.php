@@ -40,8 +40,13 @@ Route::get('/berita/{id}',[LandingController::class, 'berita']);
 
 Route::get('/pengumuman/{id}',[LandingController::class, 'pengumuman']);
 
-Route::get('/jurusan-tkj',[LandingController::class, 'jurusan'])->name('jurusan-tkj');
+Route::get('/jurusan/tkj',[LandingController::class, 'jurusanTkj'])->name('jurusan-tkj');
+Route::get('/jurusan/tkr',[LandingController::class, 'jurusanTkr'])->name('jurusan-tkr');
 
+Route::get('/pendaftaran',[LandingController::class, 'pendaftaran'])->name('pendaftaran');
+Route::get('panduan-pendaftaran',[LandingController::class, 'panduan'])->name('panduan-pendaftaran');
+
+// route admin
 Route::prefix('/admin')->group(function(){
     Route::get('/login',[adminController::class, 'login'])->name('login')->middleware('guest');
     Route::post('/login-process',[adminController::class, 'loginProcess'])->name('login-process');
